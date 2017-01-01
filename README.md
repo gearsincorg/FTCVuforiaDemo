@@ -5,10 +5,10 @@
 This linear opmode demonstrates one way to use Vuforia to track target images.
 It has been provided as Technology Outreach by FTC Team 2818 G-FORCE from Accident MD.
 
-Search YouTube for video tutorial and code walk-through.
-Search for "2818 FTCVuforiaDemo"
+Search YouTube for "2818 FTCVuforiaDemo" to locate a Video tuorial and walkthrough.
 
-This code was written to be compatible with FTC_SDK V 2.62 (Dec 2016)
+This code was written to be compatible with FTC_SDK V 2.62 (Dec 2016).
+
 Place any of the four 2016/17 images on the field perimeter. 
 
 To test the OpMode, do the following:
