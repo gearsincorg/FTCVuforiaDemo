@@ -47,7 +47,7 @@ public class Robot_Navigation
     // Select which camera you want use.  The FRONT camera is the one on the same side as the screen.  Alt. is BACK
     private static final VuforiaLocalizer.CameraDirection CAMERA_CHOICE = VuforiaLocalizer.CameraDirection.FRONT;
 
-    public  static final double  YAW_GAIN       =  0.013;   // Rate at which we respond to heading error
+    public  static final double  YAW_GAIN       =  0.018;   // Rate at which we respond to heading error
     public  static final double  LATERAL_GAIN   =  0.0027;  // Rate at which we respond to off-axis error
     public  static final double  AXIAL_GAIN     =  0.0017;  // Rate at which we respond to target distance errors
 
@@ -172,7 +172,7 @@ public class Robot_Navigation
         parameters.vuforiaLicenseKey = "Afbu2Uv/////AAAAGVouNdSAD0P8la+sq37vCdQ6uLVH8NWrBLnfZ1R5rObJQpVVHJzqvIgMZO5gTqXG6DYJZcgwtSVZXU2g20FAJobxCog9Wc5vtqgJJmrsJ0NOABRbi9vy4Y9IzBVfaDoRsQTmjxxFf62Z9slttsb44KopGpVGTQ83iHnTo/wDvnZBWRhmckG6IKuqkbRYCFD+w1hHvVLuDoIYLgfpa1Rw1Pc7rszP/CDzUfeO9KwodFpEsfZHIZI8KHIYzfRIOhg1Tg0T4eRsLCO8s9vfZd6vfTuUA/sZkID3N7BsrlLaL6vUqheGPvsbPuQQsMqgPNYTqbhvv3KI/SR5WxUaccuVHnpVMhAjkdpruWVliCCZqp1t";
 
         parameters.cameraDirection = CAMERA_CHOICE;
-        parameters.useExtendedTracking = true;
+        parameters.useExtendedTracking = false;
         VuforiaLocalizer vuforia = ClassFactory.createVuforiaLocalizer(parameters);
 
         /**

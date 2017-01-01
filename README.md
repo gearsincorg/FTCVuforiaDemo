@@ -1,7 +1,16 @@
 ## FTCVuforiaDemo
 
+## FTCVuforiaDemo
+
 This linear opmode demonstrates one way to use Vuforia to track target images.
+It has been provided as Technology Outreach by FTC Team 2818 G-FORCE from Accident MD.
+
+Search YouTube for video tutorial and code walk-through.
+Search for "2818 FTCVuforiaDemo"
+
+This code was written to be compatible with FTC_SDK V 2.62 (Dec 2016)
 Place any of the four 2016/17 images on the field perimeter. 
+
 To test the OpMode, do the following:
 
 - Init the opmode 
@@ -40,13 +49,13 @@ Telemetry Data displays robot and target information whenever a target is "visib
 A sample display is shown here:
 
 - Visible     blue near
-- Robot       [X]:[Y] (B) [-400mm]:[-300mm] (12°)
-- Target      [R] (B):(RB) [500mm] (-10f°):(22°)
-- Turn      <<< CCW 22°
-- Strafe    LEFT 300mm
-- Distance  400mm
-- Axes        A[0.23], L[-0.11], Y[-0.42]
-- Wheels      L[0.2], R[0.3], B[-0.31]
+- Robot       [X]:[Y] (B) [-646mm]:[80mm] (5°)
+- Target      [R] (B):(RB) [651mm] (-7f°):(-12°)
+- Turn      >>> CW 12°
+- Strafe    RIGHT 80mm
+- Distance  646mm
+- Axes        A[0.42], L[0.22], Y[-0.21]
+- Wheels      L[-0.74], R[0.09], B[0.00]
 
  
  
